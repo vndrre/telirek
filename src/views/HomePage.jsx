@@ -9,13 +9,7 @@ const HomePage = () => {
       <NavBar />
       <LandingPage />
 
-      <Test />
-      <Test />
-      <Test />
-      <Test />
-      <Test />
-      <Test />
-      <Test />
+
     </div>
   )
 }
