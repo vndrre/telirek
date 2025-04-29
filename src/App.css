@@ -5,3 +5,7 @@ body{
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
+
+.font-lighter{
+    font-weight: 100;
+}

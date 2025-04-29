@@ -23,7 +23,7 @@ const NavBar = () => {
 
     return (
         <div className={`
-            w-full fixed top-0 left-0 z-50 transition-all duration-300 ease-in-out
+            w-full fixed top-0 left-0 z-[999] transition-all duration-300 ease-in-out
             ${scrolling ? 'bg-[#fbfbfb]' : 'md:bg-transparent bg-[#fbfbfb]'}
             ${scrolling ? 'py-[10px] shadow-md text-black' : 'py-[25px] md:text-[#fbfbfb] text-black'}
         `}>
