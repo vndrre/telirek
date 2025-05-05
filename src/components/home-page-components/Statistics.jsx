@@ -2,38 +2,38 @@ import React, { useRef, useEffect, useState } from 'react';
 import { motion, useInView } from "framer-motion";
 
 // Reusable animated counter
-const Counter = ({ target, isInView, duration = 650 }) => {
+  const Counter = ({ target, isInView, duration = 650 }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (!isInView) return;
+      if (!isInView) return;
 
-    let startTime = performance.now();
+      let startTime = performance.now();
 
-    const animate = (currentTime) => {
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const value = Math.floor(progress * target);
-      setCount(value);
+      const animate = (currentTime) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const value = Math.floor(progress * target);
+        setCount(value);
 
-      if (progress < 1) {
-        requestAnimationFrame(animate);
-      } else {
-        setCount(target);
-      }
-    };
+        if (progress < 1) {
+          requestAnimationFrame(animate);
+        } else {
+          setCount(target);
+        }
+      };
 
-    requestAnimationFrame(animate);
-  }, [isInView, target, duration]);
+      requestAnimationFrame(animate);
+    }, [isInView, target, duration]);
 
-  return <p className='text-5xl md:text-6xl lg:text-7xl'>{count.toLocaleString()}</p>;
-};
+    return <p className='text-5xl md:text-6xl lg:text-7xl'>{count.toLocaleString()}</p>;
+  };
 
-const Statistics = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, {
-    once: false,
-    margin: "-100px 0px",
+  const Statistics = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, {
+      once: false,
+      margin: "-100px 0px",
   });
 
   return (

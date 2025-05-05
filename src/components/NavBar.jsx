@@ -36,7 +36,7 @@ const NavBar = () => {
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center gap-12 text-[19px]">
                     {Links.map((link) => (
-                        <a key={link.name} href={link.link} className="hover:text-[#00529c] transition-colors">
+                        <a key={link.name} href={link.link} className="px-[25px] py-[7px] hover:text-[#00529c] hover:bg-[#fbfbfb] duration-200 transition-colors">
                             {link.name}
                         </a>
                     ))}
@@ -65,7 +65,7 @@ const NavBar = () => {
 
             {/* Mobile Dropdown Menu */}
             {menuOpen && (
-                <div className="md:hidden bg-white text-black px-6 pt-4 pb-6 shadow-md">
+                <div className="md:hidden bg-[#fbfbfb] text-[#414141] px-6 pt-4 pb-6">
                     <div className="flex flex-col gap-4 text-lg">
                         {Links.map((link) => (
                             <a
@@ -77,7 +77,9 @@ const NavBar = () => {
                                 {link.name}
                             </a>
                         ))}
-                        <BlueButton href="/">Kontakt</BlueButton>
+                        <div>
+                            <BlueButton href="/">Kontakt</BlueButton>
+                        </div>
                     </div>
                 </div>
             )}
