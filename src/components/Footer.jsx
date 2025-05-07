@@ -14,15 +14,10 @@ const Footer = () => {
       initial={{ opacity: 0, y: 100 }}
       animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
       transition={{ duration: 0.5 }}
-      className='bg-[#00529c] text-[#fbfbfb] px-[32px] py-[24px]'
+      className='bg-[#00529c] text-[#fbfbfb] px-[32px] py-[15px]'
     >
 
         <div className='grid grid-cols-1 items-center'>
-
-            <div>
-
-            </div>
-
             <div className='text-center'>
                 <p className='text-sm md:text-base'>
                     <strong>© 2025 TELIREK GRUPP OÜ.</strong> Kõik õigused kaitstud.

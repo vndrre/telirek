@@ -3,7 +3,9 @@ import NavBar from '../components/NavBar'
 import LandingPage from '../components/home-page-components/LandingPage'
 import Statistics from '../components/home-page-components/Statistics'
 import AboutSection from '../components/home-page-components/AboutSection'
+import ServicesSection from '../components/home-page-components/ServicesSection'
 import Footer from '../components/Footer'
+
 
 const HomePage = () => {
   return (
@@ -12,7 +14,9 @@ const HomePage = () => {
       <LandingPage />
       <Statistics />
       <AboutSection />
+      <ServicesSection />
       <Footer />
+
     </div>
   )
 }

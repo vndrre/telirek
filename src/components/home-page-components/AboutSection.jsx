@@ -21,8 +21,8 @@ const AboutSection = () => {
           transition={{ duration: 0.5 }}
           className='flex flex-col text-left gap-5'
         >
-          <h1 className='text-3xl sm:text-4xl lg:text-5xl font-semibold text-center md:text-left lg:text-left'>Meist</h1>
-          <p className='text-base sm:text-lg md:text-xl leading-[50px] font-light text-center md:text-left lg:text-left'>
+          <h1 className='text-3xl sm:text-4xl lg:text-5xl font-semibold text-left md:text-left lg:text-left text-[#00529c]'>Meist</h1>
+          <p className='text-base sm:text-lg md:text-xl leading-[50px] font-light text-left md:text-left lg:text-left'>
             Ettevõtte personal on tegelenud ehitustöödega <span className='font-bold'>üle 12 aasta.</span> <br />
             Meie eesmärgiks on <span className='font-bold'>iga töö puhul</span> välja selgitada <span className='font-bold'> kliendi täpsed vajadused.</span> <br />
             Iga projekti lõpptulemus peab olema <span className='font-bold'>rahulolev klient ja positiivne tagasiside.</span> <br />
@@ -39,7 +39,7 @@ const AboutSection = () => {
         >
           <img
             src={image}
-            className='w-full h-auto max-h-[400px] object-cover'
+            className='w-full h-auto max-h-[400px] object-cover shadow-md hover:shadow-xl transition duration-300 '
           />
         </motion.div>
 
