@@ -7,7 +7,7 @@ const LandingPage = () => {
         <div className="relative w-full h-screen overflow-hidden">
             {/* Background Image */}
             <img
-                src="https://picsum.photos/1920/1080" // <-- replace with your image path
+                src="src/assets/gallery/20230106_154638.jpg" // <-- replace with your image path
                 alt="Background"
                 className="absolute inset-0 w-full h-full object-cover z-0"
             />
