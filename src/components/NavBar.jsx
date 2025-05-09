@@ -27,7 +27,7 @@ const NavBar = () => {
             ${scrolling ? 'bg-[#fbfbfb]' : 'md:bg-transparent bg-[#fbfbfb]'}
             ${scrolling ? 'py-[10px] shadow-md text-black' : 'py-[25px] md:text-[#fbfbfb] text-black'}
         `}>
-            <div className="flex items-center justify-between px-6 md:px-[100px] lg:px-[250px]">
+            <div className="flex items-center justify-between px-6 md:px-[100px] xl:px-[250px]">
                 {/* Logo */}
                 <a href='/' className={`text-3xl font-semibold transition-all ${scrolling ? 'text-2xl' : 'text-3xl'}`}>
                     Logo
