@@ -25,12 +25,14 @@ const LandingPage = () => {
                         duration: 0.4,
                         scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                     }}
+                    className='text-center'
                 >
-                    <h1 className="text-5xl md:text-6xl font-bold mb-6">
+                    <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
                         TELIREK
                     </h1>
-
-                    <BlueButton href='/'>Kontakt</BlueButton> 
+                    <p className="text-xl md:text-2xl mb-8 max-w-2xl opacity-95">
+                        Ehitustööde professionaalid, kes teevad <br className='md:block hidden' /> teie unistused reaalsuseks
+                    </p>
                     
                 </motion.div>
             </div>

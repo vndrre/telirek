@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import BlueButton from './BlueButton';
+import Logo from '../assets/telirek.png';
 
 const NavBar = () => {
     const [scrolling, setScrolling] = useState(false);
@@ -25,12 +26,12 @@ const NavBar = () => {
         <div className={`
             w-full fixed top-0 left-0 z-[999] transition-all duration-300 ease-in-out
             ${scrolling ? 'bg-[#fbfbfb]' : 'md:bg-transparent bg-[#fbfbfb]'}
-            ${scrolling ? 'py-[10px] shadow-md text-black' : 'py-[25px] md:text-[#fbfbfb] text-black'}
+            ${scrolling ? 'py-[10px] shadow-md text-[#414141]' : 'py-[25px] md:text-[#fbfbfb] text-[#414141]'}
         `}>
             <div className="flex items-center justify-between px-6 md:px-[100px] xl:px-[250px]">
                 {/* Logo */}
                 <a href='/' className={`text-3xl font-semibold transition-all ${scrolling ? 'text-2xl' : 'text-3xl'}`}>
-                    Logo
+                    <img src={Logo} alt="Telirek Logo" className="h-12" />
                 </a>
 
                 {/* Desktop Links */}
