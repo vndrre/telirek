@@ -5,6 +5,7 @@ import Statistics from '../components/home-page-components/Statistics'
 import AboutSection from '../components/home-page-components/AboutSection'
 import ServicesSection from '../components/home-page-components/ServicesSection'
 import Footer from '../components/Footer'
+import ScrollToTop from '../components/ScrollToTop'
 
 
 const HomePage = () => {
@@ -15,8 +16,9 @@ const HomePage = () => {
       <Statistics />
       <AboutSection />
       <ServicesSection />
+      
+      <ScrollToTop />
       <Footer />
-
     </div>
   )
 }

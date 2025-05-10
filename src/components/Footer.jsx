@@ -32,7 +32,7 @@ const Footer = () => {
               </span>
             </p>
             <p className='mb-1'>
-              Tel <a href='tel:5204303' className='underline'>5204303</a>
+              Tel <a href='tel:+3725204303' className='underline'>+372 5204 303</a>
             </p>
             <p className='mb-1'>E-mail <a href='mailto:info@telirekgrupp.ee' className='underline'>info@telirekgrupp.ee</a></p>
             <p className='mb-1'>Majandustegevusteate number EEH011485</p>

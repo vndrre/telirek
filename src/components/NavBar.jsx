@@ -44,7 +44,7 @@ const NavBar = () => {
 
                 {/* Desktop Button */}
                 <div className="hidden md:block">
-                    <BlueButton href="/">Kontakt</BlueButton>
+                    <BlueButton href="/kontakt">Kontakt</BlueButton>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -78,7 +78,7 @@ const NavBar = () => {
                             </a>
                         ))}
                         <div>
-                            <BlueButton href="/">Kontakt</BlueButton>
+                            <BlueButton href="/kontakt">Kontakt</BlueButton>
                         </div>
                     </div>
                 </div>
