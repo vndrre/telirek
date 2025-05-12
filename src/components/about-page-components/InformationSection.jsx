@@ -12,28 +12,28 @@ const InformationSection = () => {
       id: 1, 
       text: "Ettevõtte personal on tegelenud ehitustöödega", 
       highlight: "üle 12 aasta.",
-      image: "/path-to-image1.jpg",
+      image: "src/assets/gallery/IMG-759f81425f6deb80c33f40858076ab05-V.jpg",
       description: "Meie meeskond koosneb kogenud spetsialistidest, kes on aastate jooksul kogunud väärtuslikku kogemust erinevates ehitustöödes."
     },
     { 
       id: 2, 
       text: "Meie eesmärgiks on", 
       highlight: "iga töö puhul välja selgitada kliendi täpsed vajadused.",
-      image: "/path-to-image2.jpg",
+      image: "src/assets/gallery/IMG-2752a7c64940a81998310301973a1ed1-V.jpg",
       description: "Usume, et iga projekt on unikaalne ja nõuab individuaalset lähenemist. Seetõttu veedame aega, et mõista kliendi ootusi ja soove."
     },
     { 
       id: 3, 
       text: "Iga projekti lõpptulemus peab olema", 
       highlight: "rahulolev klient ja positiivne tagasiside.",
-      image: "/path-to-image3.jpg",
+      image: "src/assets/gallery/IMG-ba014fc8fade0ff4036c772895e5039b-V.jpg",
       description: "Meie kvaliteedistandardid on kõrged ja me ei lõpeta projekti enne, kui klient on 100% rahul tulemusega."
     },
     { 
       id: 4, 
       text: "Oma tööde teostamiseks kasutame ainult", 
       highlight: "sertifitseeritud materjale ja anname garantii vastavalt tarbijakaitse seadustikule.",
-      image: "/path-to-image4.jpg",
+      image: "src/assets/gallery/received_1303031417250809.jpeg",
       description: "Meie partnerid on juhtivad materjalide tootjad ja tarnijad, mis tagab kõrge kvaliteedi ja vastupidavuse."
     }
   ];
