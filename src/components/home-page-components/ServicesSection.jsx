@@ -10,26 +10,26 @@ const ServiceSection = () => {
   const services = [
     {
       id: 1,
-      title: "Katuse vahetus",
-      description: "Teostame katuse vahetusega seotud töid - alates vana katuse lammutustöödest kuni uue katuse paigaldamiseni.",
+      title: "Fassaaditööd",
+      description: "Pakume professionaalset fassaadi renoveerimist, soojustamist ja hooldust, et tagada Teie hoone välimuse ja energiatõhususe pikaajaline säilimine.",
       icon: "🏠"
     },
     {
       id: 2,
-      title: "Katuse ehitus",
-      description: "Ehitame uusi katuseid - alates sarikate paigaldusest kuni valmis katusekatteni. Kasutame kvaliteetseid materjale ja töövõtteid.",
+      title: "Tellingute paigaldus",
+      description: "Turvalised ja kvaliteetsed tellingulahendused, mis tagavad igasuguste tööde mugava ja ohutu teostamise.",
       icon: "🔨"
     },
     {
       id: 3,
-      title: "Katuste hooldus ja remont",
-      description: "Teostame katuste hooldustöid ja remonti - lekete kõrvaldamine, katuse pesu, samblaeemaldus ja muu hooldus.",
+      title: "Üldehitus",
+      description: "Teostame kõikvõimalikke ehitusprotsesse, alates vundamendist kuni katusekonstruktsioonideni.",
       icon: "🔧"
     },
     {
       id: 4,
-      title: "Plekitööd",
-      description: "Teostame erinevaid plekitöid - katuse servaplekkide, harjaplekkide, korstnaplekkide paigaldus ja muud plekitööd.",
+      title: "Viimistlustööd",
+      description: "Pakume laia valikut viimistlusteenuseid, sealhulgas sise- ja välisviimistlustöid, et luua Teie kodu või tööruumides professionaalne ja esteetiline keskkond.",
       icon: "⚒️"
     }
   ];

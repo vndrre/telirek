@@ -52,11 +52,11 @@ const Statistics = () => {
       >
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-12 px-6 sm:px-10'>
           <div className='grid grid-cols-1 gap-4 text-center font-medium'>
-            <Counter target={20000} isInView={isInView} />
+            <Counter target={30000} isInView={isInView} />
             <p className='text-xl md:text-2xl'>m2 soojustatud <br /> fassaadi</p>
           </div>
           <div className='grid grid-cols-1 gap-4 text-center font-medium'>
-            <Counter target={40000} isInView={isInView} />
+            <Counter target={400000} isInView={isInView} />
             <p className='text-xl md:text-2xl'>tehtud <br /> töötundi</p>
           </div>
           <div className='grid grid-cols-1 gap-4 text-center font-medium'>
